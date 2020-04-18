@@ -40,7 +40,7 @@ def play(board)
   turn = 0
   until turn = 9
     puts "Let's move to the next"
-    turn += turn
+    turn += 1
     break
 end
 end
