@@ -38,8 +38,9 @@ end
 # Define your play method below
 def play(board)
   turn = 0
-  turn += turn
-  if turn > 9
+  while turn < 9
+    puts "Let's move to the next"
+    turn += turn
     break
 end
 end
