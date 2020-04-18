@@ -39,7 +39,6 @@ end
 def play(board)
   turn = 0
   until turn == 9
-    puts "Let's move to the next"
     turn += 1
 end
 end
